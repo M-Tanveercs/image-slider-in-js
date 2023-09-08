@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="slide-counter">
+        <div class="slide">
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg" alt="">
+            <div class="caption">Caption Text 1</div>
+        </div>
+        <div class="slide">
+            <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_640.jpg" alt="">
+            <div class="caption">Caption Text 2</div>
+        </div>
+        <div class="slide">
+            <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_1280.jpg" alt="">
+            <div class="caption">Caption Text 3</div>
+        </div>
+        <div class="slide">
+            <img src="https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_640.jpg" alt="">
+            <div class="caption">Caption Text 4</div>
+        </div>
+        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+        <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
